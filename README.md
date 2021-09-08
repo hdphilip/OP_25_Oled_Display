@@ -8,3 +8,5 @@ For more information, check out Radio Reference:
  https://forums.radioreference.com/threads/op25-boatbod-update.430476/#post-3562825
 special thanks must be given to “BoatBod, KA1RBI and many others for the work they have done on the project.
 
+Who is this project intended for?
+Raspberry Pi owners who like to experiment on connecting different hardware devices up to their Pi and using software like “VScode” or “Thonny” to make them work. 
