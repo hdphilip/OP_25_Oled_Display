@@ -1,0 +1,9 @@
+{
+    "icecastPass": "67mustang",
+    "icecastMountpoint": "op25-1",
+    "icecastServerAddress": "localhost:8000",
+    "delay": "0.0", "icecastMountExt": ".m3u",
+    "meta_format_idle": "[idle]",
+    "meta_format_tgid": "[%TGID%]",
+    "meta_format_tag":  "%TAG%"
+}
