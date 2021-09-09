@@ -78,5 +78,5 @@ Good Luck
 Todo list:
 import more information 
 
-
+hopefully i didn"t forget anything...lol
 
