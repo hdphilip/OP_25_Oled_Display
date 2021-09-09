@@ -55,12 +55,20 @@ look at my meta config, made a change their, identify and do the same.
 Now here is the most important part.
 In the python file icemeta.py 
 Notice the lines of code I added:
+
 Line 23  import socket
+
+
 Line 31  UDP_IP = "127.0.0.1"
+
 Line 32 UDP_PORT = 28003
+
 Line 33 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
 Line 92  sock.sendto(metatext, (UDP_IP, UDP_PORT))
+
 Save the changes
+
 
 Also make sure you put the font file in the same directory as Tag_oled_op25_3_0.py
 
