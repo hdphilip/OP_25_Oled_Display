@@ -2,7 +2,7 @@
 This project Displays the OP25 Alfa  Tags on a OLED Display
 
 This is a Work in Progress,
-as you can see from my code, i am a beginner 
+as you can see from my code, I am a beginner and I welcome changes, this could be a fun project!!!
   
 For more information, check out Radio Reference:
  https://forums.radioreference.com/threads/op25-boatbod-update.430476/#post-3562825
@@ -73,6 +73,9 @@ NOTES:
 the display drivers were a real pain at first..
 
 Good Luck
+
+Todo list:
+import more information 
 
 
 
