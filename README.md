@@ -23,4 +23,4 @@ after you have finished it’s time to install the samples,
 https://github.com/rm-hull/luma.examples
 and run them!!!!
 And run them in Thonny!  
-(Hint for Thonny, use the Program arguments for the command line ) I used -d sh1106 might work without it.
+(Hint for Thonny, use the Program arguments for the command line ) I used -d sh1106 (might work without it.)
