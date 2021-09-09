@@ -89,7 +89,6 @@ class meta_server(threading.Thread):
             metatext = self.fmt_tgid
         metatext = metatext.replace("%TGID%", str(meta['tgid']))
         metatext = metatext.replace("%TAG%", str(meta['tag']))
-        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.sendto(metatext, (UDP_IP, UDP_PORT))
         return metatext
 
