@@ -31,9 +31,13 @@ It’s best to practice the installation on a spare micro SD card with a working
 Step 1:
 Wire up your display (i2c) to your raspberry Pi, 4 wires +3, GND, SCL, SCK 
 Install Luma.oled drivers :
+
 https://luma-oled.readthedocs.io/en/latest/hardware.html
+
 after you have finished it’s time to install the samples,
+
 https://github.com/rm-hull/luma.examples
+
 and run them!!!!
 And run them in Thonny!  
 (Hint for Thonny, use the Program arguments for the command line ) I used -d sh1106 (might work without it.)
