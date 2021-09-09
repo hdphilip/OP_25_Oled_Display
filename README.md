@@ -41,13 +41,17 @@ Install Luma.oled drivers :
 
 https://luma-oled.readthedocs.io/en/latest/hardware.html
 
-after you have finished it’s time to install the samples,
+after you have finished,  it’s time to install the samples,
 
 https://github.com/rm-hull/luma.examples
 
 and run them!!!!
 And run them in Thonny!  
 (Hint for Thonny, use the Program arguments for the command line ) I used -d sh1106 (might work without it.)
+
+look at my meta config, made a change their, identify and to the same.
+
+CareFull
 
 
 
