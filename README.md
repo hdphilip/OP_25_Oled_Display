@@ -60,7 +60,7 @@ Now here is the most important part.
 In the python file icemeta.py 
 Notice the lines of code I added:
 
-""
+
 Line 23  import socket
 
 Line 31  UDP_IP = "127.0.0.1"
@@ -70,14 +70,15 @@ Line 32 UDP_PORT = 28003
 Line 33 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 Line 92  sock.sendto(metatext, (UDP_IP, UDP_PORT))
-""
+
 
 Save the changes
 
 
 Also make sure you put the font file in the same directory as Tag "display type of file".py
-
 just put it in the same dir as icemeta.py 
+
+If all goes well, start op25 with liquidsoap, open Thonny, open the tag oled display file, and wait for a call to display, you can make changes to the tag display file without restarting op25.
 
 Very important!!!!
 
