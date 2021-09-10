@@ -24,7 +24,7 @@ sock.bind((UDP_IP, UDP_PORT))
 
 font = ImageFont.truetype("FreeSans.ttf", 18)  # make sure font file is in the same folder
 term = terminal(device, font)
-device.contrast(64)
+device.contrast(64) # adjust for brightness 0-255
 
 while True:
      
