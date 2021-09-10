@@ -2,11 +2,19 @@
 This project Displays the OP25 Alfa  Tags on a OLED Display
 
 
-<img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssh1106.jpg" width=300 align="left">
+<img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssh1106.jpg" width=300 
+align="left">
+
+<img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1351.jpg" width=300 
+align="left">
+
+<img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1306.jpg" width=300 
+align="left">
 
 
 This is a Work in Progress,
 as you can see from my code, I am a beginner and I welcome changes, this could be a fun project!!!
+
   
 For more information, check out Radio Reference:
  https://forums.radioreference.com/threads/op25-boatbod-update.430476/#post-3562825
@@ -78,7 +86,7 @@ Save the changes
 Also make sure you put the font file in the same directory as Tag "display type of file".py
 just put it in the same dir as icemeta.py 
 
-If all goes well, start op25 with liquidsoap, open Thonny, open the tag oled display file, and wait for a call to display, you can make changes to the tag display file without restarting op25.
+If all goes well, start op25 with liquidsoap, open Thonny, open and run the tag oled display file, and wait for a call to display, you can make changes to the tag display file without restarting op25.
 
 Very important!!!!
 
@@ -88,7 +96,6 @@ If a new .pyc file was not created look at the error output file to see what wen
 
 NOTES:
 the display drivers were a real pain at first..
-
 
 
 Todo list:
