@@ -5,8 +5,10 @@ This project Displays the OP25 Alfa  Tags on a OLED Display
 <img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssh1106.jpg" width=300 
 align="left">
 
+
 <img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1351.jpg" width=300 
 align="left">
+
 
 <img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1306.jpg" width=300 
 align="left">
