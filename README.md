@@ -50,7 +50,7 @@ after you have finished,  it’s time to install the samples,
 
 https://github.com/rm-hull/luma.examples
 
-and run them!!!!
+And run them!!!!
 And run them in Thonny!  
 (Hint for Thonny, use the Program arguments for the command line ) I used -d sh1106 (might work without it.)
 
@@ -60,11 +60,17 @@ Now here is the most important part.
 In the python file icemeta.py 
 Notice the lines of code I added:
 
+""
 Line 23  import socket
+
 Line 31  UDP_IP = "127.0.0.1"
+
 Line 32 UDP_PORT = 28003
+
 Line 33 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
 Line 92  sock.sendto(metatext, (UDP_IP, UDP_PORT))
+""
 
 Save the changes
 
@@ -73,9 +79,11 @@ Also make sure you put the font file in the same directory as Tag "display type 
 
 just put it in the same dir as icemeta.py 
 
-Very important!!!! 
-**Delete the icemeta.pyc file, a new one will be created next run time.
-If not, look at the error output file to see what went wrong**
+Very important!!!!
+
+**Delete the icemeta.pyc file, a new one will be created next run time.**
+
+If a new .pyc file was not created look at the error output file to see what went wrong, this will hel you troubleshoot.
 
 NOTES:
 the display drivers were a real pain at first..
@@ -83,7 +91,7 @@ the display drivers were a real pain at first..
 
 
 Todo list:
-import more information 
+import more information, i'd like to show Frequency error. 
 
 hopefully i didn"t forget anything...lol
 Good Luck
