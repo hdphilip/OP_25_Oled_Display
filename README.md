@@ -81,10 +81,10 @@ If not, look at the error output file to see what went wrong
 NOTES:
 the display drivers were a real pain at first..
 
-Good Luck
+
 
 Todo list:
 import more information 
 
 hopefully i didn"t forget anything...lol
-
+Good Luck
