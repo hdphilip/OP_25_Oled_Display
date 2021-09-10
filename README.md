@@ -1,26 +1,19 @@
 # OP_25_Oled_Display
-This project Displays the OP25 Alfa  Tags on a OLED Display
 
+This project Displays the OP25 Alfa  Tags on a OLED Display
 
 <img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssh1106.jpg" width=300 align="left">
 
-
-
 <img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1351.jpg" width=300 align="left">
 
-
-
 <img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1306.jpg" width=300 align="left">
-
-
 
 This is a Work in Progress,
 as you can see from my code, I am a beginner and I welcome changes, this could be a fun project!!!
 
-  
 For more information, check out Radio Reference:
- https://forums.radioreference.com/threads/op25-boatbod-update.430476/#post-3562825
- 
+ <https://forums.radioreference.com/threads/op25-boatbod-update.430476/#post-3562825>
+
 special thanks must be given to “BoatBod, KA1RBI and many others for the work they have done on the project.
 
 Who is this project intended for?
@@ -37,11 +30,11 @@ Wire up your display (i2c) to your raspberry Pi, 4 wires +3, GND, SCL, SCK
 
 Install Luma.oled drivers :
 
-https://luma-oled.readthedocs.io/en/latest/hardware.html
+<https://luma-oled.readthedocs.io/en/latest/hardware.html>
 
 after you have finished it’s time to install the samples:
 
-https://github.com/rm-hull/luma.examples
+<https://github.com/rm-hull/luma.examples>
 
 And run them!!!! some are pretty cool
 And run them in Thonny!  
@@ -54,11 +47,11 @@ Step 1:
 Wire up your display (i2c) to your raspberry Pi, 4 wires +3, GND, SCL, SCK 
 Install Luma.oled drivers :
 
-https://luma-oled.readthedocs.io/en/latest/hardware.html
+<https://luma-oled.readthedocs.io/en/latest/hardware.html>
 
 after you have finished,  it’s time to install the samples,
 
-https://github.com/rm-hull/luma.examples
+<https://github.com/rm-hull/luma.examples>
 
 And run them!!!!
 And run them in Thonny!  
@@ -81,12 +74,10 @@ Line 33 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 Line 92  sock.sendto(metatext, (UDP_IP, UDP_PORT))
 
-
 Save the changes
 
-
 Also make sure you put the font file in the same directory as Tag "display type of file".py
-just put it in the same dir as icemeta.py 
+just put it in the same dir as icemeta.py
 
 If all goes well, start op25 with liquidsoap, open Thonny, open and run the tag oled display file, and wait for a call to display, you can make changes to the tag display file without restarting op25.
 
@@ -98,7 +89,6 @@ If a new .pyc file was not created look at the error output file to see what wen
 
 NOTES:
 the display drivers were a real pain at first..
-
 
 Todo list:
 import more information, i'd like to show Frequency error. 
