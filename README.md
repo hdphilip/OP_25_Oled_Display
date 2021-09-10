@@ -1,7 +1,8 @@
 # OP_25_Oled_Display
 This project Displays the OP25 Alfa  Tags on a OLED Display
 
-<img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssh1106.jpg" width=300 align=right>
+
+<img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssh1106.jpg" width=300 align="left">
 
 
 This is a Work in Progress,
