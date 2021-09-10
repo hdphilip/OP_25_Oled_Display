@@ -11,10 +11,8 @@ This project Displays the OP25 Alfa  Tags on a OLED Display
 
 <img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1351.jpg" width=300 align="left">
 
-<img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1306.jpg" width=300 align="left">
 
-<img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1306.jpg" alt="drawing"/>
-# then use this ↓ (Add width or style attribute)
+
 <img src="https://github.com/hdphilip/OP_25_Oled_Display/blob/main/Pictures/ssd1306.jpg" alt="drawing" style="width:200px;"/>
 
 This is a Work in Progress,
