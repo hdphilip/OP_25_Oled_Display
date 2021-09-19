@@ -1,0 +1,10 @@
+
+Wave share 1.5 inch RGB OLED SSD1351 (I purchased from Amazon all 3 Worked)
+Module                 Raspberry Pi
+Red(VCC)----------------- +3.3
+Black(Gnd----------------GND
+Blue(Din)------------------19
+Yellow(Clk)----------------23
+Orange(CS)----------------24
+Green(DC)-----------------18
+White(RST)----------------22 
