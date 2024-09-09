@@ -1,0 +1,25 @@
+
+sudo nano /etc/systemd/system/tag_oled.service
+
+[Unit]
+Description=OLED Tag Display and LED Control
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/op25/op25/gr-op25_repeater/apps/T_oled.py
+WorkingDirectory=/home/pi/op25/op25/gr-op25_repeater/apps
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+sudo systemctl daemon-reload
+sudo systemctl enable tag_oled.service
+sudo systemctl start tag_oled.service
+sudo systemctl status tag_oled.service
