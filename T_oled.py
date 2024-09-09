@@ -37,7 +37,7 @@ def update_display_and_leds(metadata):
   #  print("Display Metadata: %s" % display_data)
 
     # Control LEDs based on metadata content
-    if display_data == "GLT PD1":       
+    if display_data == "PD1":       
         GPIO.output(11, GPIO.HIGH)  # Turn on Green LED
     else:
         GPIO.output(11, GPIO.LOW)   # Turn off Green LED

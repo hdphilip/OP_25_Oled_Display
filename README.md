@@ -30,6 +30,7 @@ Wire up your display (i2c) to your raspberry Pi, 4 wires +3, GND, SCL, SCK
 
 Install Luma.oled drivers :
 
+
 <https://luma-oled.readthedocs.io/en/latest/hardware.html>
 
 after you have finished it’s time to install the samples:
@@ -53,31 +54,23 @@ after you have finished,  it’s time to install the samples,
 
 <https://github.com/rm-hull/luma.examples>
 
-And run them!!!!
-And run them in Thonny!  
+And run them in Thonny!
+
+ya need to verify the oled is working!
+
 (Hint for Thonny, use the Program arguments for the command line ) I used -d sh1106 (might work without it.)
 
-look at my meta config, made a change their, identify and do the same.
-
 Now here is the most important part.
-In the python file icemeta.py
-Notice the lines of code I added:
+Replace the 'icemeta.py'.
 
+Notes:
 
-Line 23  import socket
+If the icemeta replacement is working, you should see the T_display.json change, (i use vscode) when the metadata changes.
 
-Line 31  UDP_IP = "127.0.0.1"
+In the T_oled.py , you'll see where i have have it control some LED's.  
 
-Line 32 UDP_PORT = 28003
-
-Line 33 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
-Line 92  sock.sendto(metatext, (UDP_IP, UDP_PORT))
-
-Save the changes
-
-Also make sure you put the font file in the same directory as Tag "display type of file".py
-just put it in the same dir as icemeta.py
+Also make sure you put the font file in the same directory as T_oled.py".py
+Put it in the same dir as icemeta.py
 
 If all goes well, start op25 with liquidsoap, open Thonny, open and run the tag oled display file, and wait for a call to display, you can make changes to the tag display file without restarting op25.
 
@@ -85,13 +78,11 @@ Very important!!!!
 
 **Delete the icemeta.pyc file, a new one will be created next run time.**
 
-If a new .pyc file was not created look at the error output file to see what went wrong, this will hel you troubleshoot.
+If you get a error, i just rebooted. 
 
-NOTES:
-the display drivers were a real pain at first..
+If a new .pyc file was not created look at the error output file to see what went wrong, this will help you troubleshoot.
 
-Todo list:
-import more information, i'd like to show Frequency error. 
+The display drivers were a real pain at first..
 
 hopefully i didn"t forget anything...lol
 Good Luck

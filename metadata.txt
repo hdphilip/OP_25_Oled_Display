@@ -1,4 +1,8 @@
 
+/home/pi/op25/op25/gr-op25_repeater/apps
+
+
+
 sudo nano /etc/systemd/system/tag_oled.service
 
 [Unit]
